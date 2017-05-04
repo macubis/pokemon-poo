@@ -17,6 +17,5 @@ function Pokemon(nombre, color, poderDeAtaque){
 };
 const Pikachu = new Pokemon("Pikachu","amarillo",100)
 const Charmander = new Pokemon ("Charmander","rojo", 20)
-Pikachu.atacar(Charmander);
-
+Pikachu.atacar(Charmander)
 console.log(Charmander.vida);
